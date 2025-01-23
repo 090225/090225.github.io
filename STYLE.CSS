@@ -19,9 +19,8 @@ body, html {
 }
 
 .card {
-    width: 80%; /* Cambia a un porcentaje para mayor flexibilidad */
-    max-width: 600px; /* Limita el tamaño máximo */
-    height: 200px; /* Mantén el tamaño aquí si no necesitas cambiarlo */
+    width: 300px; /* Cambia el tamaño aquí */
+    height: 100px; /* Cambia el tamaño aquí */
     position: relative;
     transform-style: preserve-3d;
     transition: transform 1s;
@@ -59,20 +58,7 @@ body, html {
 }
 
 .card .back img {
-    max-width: 100%;
+    max-width: 30%;
     border-radius: 10px;
     margin-top: 10px;
-}
-
-/* Media queries para adaptabilidad */
-@media (max-width: 768px) {
-    .card {
-        height: 150px; /* Ajusta la altura para pantallas más pequeñas */
-    }
-}
-
-@media (max-width: 480px) {
-    .card {
-        height: 120px; /* Ajusta la altura para pantallas aún más pequeñas */
-    }
 }
